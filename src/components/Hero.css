@@ -1,0 +1,73 @@
+
+
+.hero {
+  width: 100vw;
+  height: 100vh; 
+  background: url("https://www.shutterstock.com/image-photo/businessman-customer-add-products-card-260nw-2431469203.jpg") 
+  center/cover no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  position: relative; 
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  color: white;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.hero-content button {
+  padding: 12px 30px;
+  font-size: 1rem;
+  background-color: #aa3bff; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-content button:hover {
+  background-color: #8a2be2;
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+  .hero-content button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
