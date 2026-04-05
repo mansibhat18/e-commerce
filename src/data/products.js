@@ -8,7 +8,7 @@ const products = [
   { id: 7, name: "Women Dress", price: 2499, image: "/assets/dress.png" },
   { id: 8, name: "Sony Headphones", price: 25000, image: "/assets/sony.png" },
   { id: 9, name: "Lipstick", price: 799, image: "/assets/lipstic.png" },
-  { id: 10, name: "Foundation", price: 1299, image: "/assets/fondation.png" },
+  { id: 10, name: "Foundation", price: 1299, image: "/assets/foundation.png" },
   { id: 11, name: "Face Powder", price: 699, image: "/assets/powder.png" },
   { id: 12, name: "Smart Watch", price: 6000, image: "/assets/watch.png" },
   { id: 13, name: "Casual Shoes", price: 2999, image: "/assets/shoes.png" },
